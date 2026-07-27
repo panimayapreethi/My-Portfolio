@@ -19,7 +19,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-             <li><a href="#leadership">Experience</a></li>
+             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -98,7 +98,7 @@
     </div>
 
     <div class="stat-box">
-        <h3>6+</h3>
+        <h3>8+</h3>
         <p>Projects Completed</p>
     </div>
 
@@ -119,7 +119,7 @@
         <div class="about-content">
 
             <p>
-                Results-oriented MBA candidate with a strong foundation in business administration and hands-on experience in data analysis, digital tools, and project execution. Proficient in SQL and Power BI for data querying, dashboard creation, and deriving actionable insights. Complemented by technical skills in Python, Advanced Excel, and HTML/CSS. Seeking opportunities to apply analytical thinking and business acumen to support data-driven decision-making.
+                MBA candidate with hands-on experience building data pipelines and dashboards using SQL, Python, and Power BI/Tableau including a churn model (78.7% accuracy), statistical analysis identifying key satisfaction drivers in e-commerce data, and a retail sales dashboard. Skilled at turning raw data into clear insights. Seeking a Business Analytics internship to apply these skills to real business problems.
             </p>
 
         </div>
@@ -134,25 +134,24 @@
 <div class="skills-grid">
 
     <div class="skill-box">
-        <h3>📊 Business Analytics</h3>
+        <h3>📊 Database & Visualization</h3>
         <ul>
             <li>SQL</li>
-            <li>Data Analysis</li>
-            <li>Data Visualization</li>
-            <li>IBM SPSS</li>
+            <li>Python</li>
+            <li>Tableau</li>
             <li>Power BI</li>
-            <li>Excel</li>
+            <li>Advanced Excel</li>
         </ul>
     </div>
 
     <div class="skill-box">
-        <h3>💻 Technical Skills</h3>
+        <h3>💻 Data Analysis</h3>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Tally</li>
-            <li>Python</li>
+            <li>Data Cleaning</li>
+            <li>Exploratory Data Analysis</li>
+            <li>KPI Analysis</li>
+            <li>Data Storytelling</li>
+            <li>Data Modelling</li>
         </ul>
     </div>
 
@@ -160,7 +159,7 @@
         <h3>🤝 Professional Skills</h3>
         <ul>
             <li>Leadership</li>
-            <li>Communication</li>
+            <li>Stakeholder Communication</li>
             <li>Critical Thinking</li>
             <li>Problem Solving</li>
             <li>Self Learning</li>
@@ -177,45 +176,131 @@
 
 <h2>Projects</h2>
 
-<!-- FEATURED PROJECT -->
+<!-- OLIST CUSTOMER SATISFACTION -->
 
-<div class="project-card featured-project">
+<div class="project-card">
 
-   <h3>🚀 ApplyWise – Career Application Tracking & Analytics Portal</h3>
+    <h3>📦 Customer Satisfaction Analysis in Brazilian E-Commerce (Olist)</h3>
 
-<div class="project-links">
+    <div class="project-links">
 
-    <a href="https://panimayapreethi.github.io/Applywise/" target="_blank">
-        🌐 Visit ApplyWise
-    </a>
+        <a href="Retail_Analytics_Dashboard.pbix" target="_blank">
+            📸 View Dashboard
+        </a>
+        <a href="https://github.com/panimayapreethi/olist-customer-satisfaction-analysis" target="_blank">
+            🌐 GitHub
+        </a>
+
+    </div>
+
+    <p>
+        Analyzed 99,000+ e-commerce orders across 7 relational datasets using Python and SQL to uncover the key drivers of customer satisfaction and translate them into an interactive Tableau dashboard.
+    </p>
+
+    <h4>Key Insights</h4>
+
+    <ul>
+        <li>Merged and cleaned 7 relational datasets (~99K orders) using Python/Pandas to build a unified analysis base.</li>
+        <li>Ran Pearson correlation testing to quantify the link between delivery delay and review score (r = -0.27, p < 0.001).</li>
+        <li>Found 1-star orders were delivered ~9 days later on average than 5-star orders, confirming delivery speed as a satisfaction driver.</li>
+        <li>Identified underperforming product categories (lowest-rated: 2.5/5 vs. platform mean 4.09/5) and a 0.6-point satisfaction gap between top and bottom-performing states.</li>
+        <li>Built an interactive Tableau dashboard to communicate findings to non-technical stakeholders.</li>
+    </ul>
+
+    <p>
+        <strong>Technologies:</strong>
+       Python, Pandas, SQL, Tableau, Statistics (Pearson correlation)
+    </p>
+    <p>
+    <strong>Impact & Insights:</strong>
+   Identified delivery delay as a statistically significant driver of poor reviews, alongside category- and region-level satisfaction gaps — providing a data-backed basis for prioritizing logistics and regional service improvements.
+</p>
 
 </div>
 
-<p>
-    Developed a web-based application tracking system
-    to help job seekers manage applications submitted
-    through LinkedIn, Naukri, Indeed and company
-    career portals.
-</p>
 
-<h4>Key Features</h4>
 
-<ul>
-    <li>Application Tracking Dashboard</li>
-    <li>Interview & Offer Monitoring</li>
-    <li>Analytics & Insights</li>
-    <li>Status Management System</li>
-    <li>Local Storage Integration</li>
-</ul>
+<!-- CUSTOMER CHURN -->
 
-<p>
-    <strong>Technologies:</strong>
-    HTML, CSS, JavaScript
-</p>
+<div class="project-card">
+
+    <h3>📉 Customer Churn Prediction & Retention Analytics</h3>
+
+    <div class="project-links">
+
+        <a href="https://customer-churn-analysis-9lnpuer39evtfraf8pwqvq.streamlit.app/" target="_blank">
+            📄 Live App
+        </a>
+        <a href="https://github.com/panimayapreethi/Customer-Churn-Analysis" target="_blank">
+            🌐 GitHub
+        </a>
+
+    </div>
+
+    <p>
+        Built a churn prediction model on 7,000+ telecom customer records and simulated the financial impact of a targeted retention strategy, deployed as an interactive Streamlit app.
+    </p>
+
+    <h4>Key Insights</h4>
+
+    <ul>
+        <li>Built and trained a Logistic Regression model to predict customer churn, achieving 78.7% accuracy on a held-out test set.</li>
+        <li>Ranked customers by predicted churn probability to identify the top 20% highest-risk segment for retention outreach.</li>
+        <li>Modeled the financial tradeoff between a targeted retention campaign and blanket discounting.</li>
+        <li>Projected a net profit of $22,380 against a $5,620 campaign cost when targeting high-risk customers specifically.</li>
+        <li>Deployed the full analysis as an interactive Streamlit app for real-time exploration.</li>
+    </ul>
+
+    <p>
+        <stron>Technologies:</stron></strong>
+        Python, Scikit-learn, SQL, Streamlit
+    </p>
    <p>
     <strong>Impact & Insights:</strong>
-Enabled data-driven monitoring of applications, interviews, and outcomes through interactive dashboards, providing insights to improve job search performance and decision-making.
+   Demonstrated that targeting high-risk customers with retention offers is significantly more cost-effective than broad discounting, providing a data-driven framework for retention budget allocation.
 </p>
+
+</div>
+
+<!-- GLOBAL RETAIL SALES -->
+
+<div class="project-card">
+
+    <h3>📊 Global Retail Sales & Profit Analytics Dashboard</h3>
+
+    <div class="project-links">
+
+        <a href="olist_output.twb" target="_blank">
+            📄 View Dashboard
+        </a>
+        <a href="https://github.com/panimayapreethi/Retail-Analytics-Project" target="_blank">
+            🌐 GitHub
+        </a>
+
+    </div>
+
+    <p>
+       Analyzed $1.38M in retail sales across 7 product categories using MySQL and Power BI to surface profitability drivers and top-performing products and customers.
+    </p>
+
+    <h4>Key Insights</h4>
+
+    <ul>
+        <li>Built a MySQL data model with reusable views (vw_sales_by_product, vw_sales_by_category, vw_customer_spending) for repeatable reporting.</li>
+        <li>Used window-function queries (RANK, running totals) to identify top products within each category and track cumulative revenue trends.</li>
+        <li>Designed a Power BI dashboard surfacing total sales ($1.38M), total profit ($679.05K), quantity sold (7.62K units), and a 49.08% profit margin.</li>
+        <li>Highlighted top revenue-driving product categories and top-spending customers to support strategic decisions.</li>
+    </ul>
+
+    <p>
+        <strong>Technologies:</strong>
+        MySQL, SQL, Power BI, DAX
+    </p>
+   <p>
+    <strong>Impact & Insights:</strong>
+    Delivered a single-view dashboard connecting sales, profit, and quantity KPIs by category and customer — enabling faster identification of high-margin categories and top-value customers for business planning.
+</p>
+
 </div>
 <!-- SQL AND PYTHON -->
 
@@ -227,7 +312,7 @@ Enabled data-driven monitoring of applications, interviews, and outcomes through
             📄 View chart
         </a>
         <a href="https://github.com/panimayapreethi/swiggy-delivery-performance-analysis.git" target="_blank">
-        🌐 Visit project
+        🌐 GitHub
     </a>
 
     </div>
@@ -257,7 +342,46 @@ Enabled data-driven monitoring of applications, interviews, and outcomes through
 
 </div>
 
+<!-- FEATURED PROJECT -->
 
+<div class="project-card featured-project">
+
+   <h3>🚀 ApplyWise – Career Application Tracking & Analytics Portal</h3>
+
+<div class="project-links">
+
+    <a href="https://panimayapreethi.github.io/Applywise/" target="_blank">
+        🌐 Visit ApplyWise
+    </a>
+
+</div>
+
+<p>
+    Developed a web-based application tracking system
+    to help job seekers manage applications submitted
+    through LinkedIn, Naukri, Indeed and company
+    career portals.
+</p>
+
+<h4>Key Features</h4>
+
+<ul>
+    <li>Built a form-based application tracker capturing company, role, type (internship/job), platform (LinkedIn, Naukri, Indeed, Glassdoor, referral, career portal), date applied, and status.</li>
+    <li>Designed a live dashboard showing total applications, breakdown by type (internships/jobs), and status counts (applied, interview, offer, rejected, pending).</li>
+    <li>Built dynamic analytics views summarizing applications by platform, role type, and status.</li>
+    <li>Implemented an auto-generated insights panel that surfaces recommendations based on the user's application data.</li>
+    <li>Used browser localStorage to persist application data across sessions without a backend.</li>
+</ul>
+
+<p>
+    <strong>Technologies:</strong>
+    HTML, CSS, JavaScript
+</p>
+   <p>
+    <strong>Impact & Insights:</strong>
+Designed to help job seekers make data-informed decisions about which platforms and application strategies yield the best results, by centralizing and visualizing their own application history.
+
+</div>
 <!-- FLOOD RESEARCH -->
 
 <div class="project-card">
@@ -273,18 +397,16 @@ Enabled data-driven monitoring of applications, interviews, and outcomes through
     </div>
 
     <p>
-        Conducted a research study to assess the
-        socio-economic impact of the 2023 Tuticorin
-        flood on affected households.
+       Conducted a primary research study assessing how the 2023 Tuticorin flood affected the socio-economic conditions of impacted households, using survey-based data collection and statistical analysis.
     </p>
 
     <h4>Research Highlights</h4>
 
     <ul>
-        <li>160 respondents surveyed</li>
-        <li>Questionnaire-based data collection</li>
-        <li>Excel and IBM SPSS analysis</li>
-        <li>74-page research report prepared</li>
+        <li>Designed and administered a structured questionnaire, surveying 160 respondents from flood-affected households.</li>
+        <li>Collected primary data covering household income, property damage, and disruption to livelihoods.</li>
+        <li>Cleaned and analyzed survey data using Excel and IBM SPSS to identify significant socio-economic patterns.</li>
+        <li>Authored a 74-page research report documenting methodology, findings, and recommendations.</li>
     </ul>
 
     <p>
@@ -293,55 +415,10 @@ Enabled data-driven monitoring of applications, interviews, and outcomes through
     </p>
    <p>
     <strong>Impact & Insights:</strong>
-    Survey findings from 160 respondents revealed statistically significant 
-    patterns that can directly inform policy recommendations or 
-    organizational decision-making in the studied domain.
+    Survey findings across 160 households revealed measurable socio-economic effects of the flood, providing evidence that could inform disaster relief planning, policy recommendations, or organizational response strategies for similar events.
 </p>
 
 </div>
-
-<!-- RETAIL DASHBOARD -->
-
-<div class="project-card">
-
-    <h3>📊 Global Retail Profit Analysis Dashboard</h3>
-
-    <div class="project-links">
-
-        <a href="assets/projects/dashboard/Dashboard.PNG" target="_blank">
-            📸 View Dashboard
-        </a>
-
-    </div>
-
-    <p>
-        Developed an interactive Power BI dashboard
-        to analyze global sales, profitability and
-        market performance trends.
-    </p>
-
-    <h4>Key Insights</h4>
-
-    <ul>
-        <li>Sales performance across countries</li>
-        <li>Profitability analysis by region</li>
-        <li>Market and product performance trends</li>
-        <li>Interactive business intelligence reporting</li>
-    </ul>
-
-    <p>
-        <strong>Tools:</strong>
-        Power BI, Excel
-    </p>
-    <p>
-    <strong>Impact & Insights:</strong>
-    Dashboard reduced manual reporting effort by enabling instant visual 
-    comparison across metrics — helping stakeholders identify trends 
-    3x faster than static spreadsheet reports.
-</p>
-
-</div>
-
 
 </div>
 
@@ -403,34 +480,6 @@ thinking and structured decision-making.
 Contributed to the AIM Career Readiness Program by training over <strong>1,500+</strong> students in Advanced Excel, interview readiness, and career development. Designed and delivered structured learning sessions, monitored student progress, and adapted training based on participant feedback. Strengthened analytical thinking, data interpretation, presentation, and problem-solving skills while mentoring students through practical exercises and mock interviews.
 </p>
 
-                <a href="assets/projects/aimproject/aim.jpeg" target="_blank">
-                    📷 View Proof
-                </a>
-
-            </div>
-
-        </div>
-
-        <!-- Media -->
-
-        <div class="experience-card">
-
-
-            <div class="experience-content">
-
-                <span class="experience-tag">Leadership</span>
-
-                <h3>Media Committee Officer</h3>
-
-                <h4>ISSM Business School</h4>
-
-               <p>
-Served as a Media Committee Officer, managing digital content, event promotions, and social media communication for college activities. Collaborated with cross-functional teams to increase event visibility, improve student engagement, and strengthen organizational communication through creative content planning and execution.
-               </p>
-
-                <a href="assets/activities/experience/media.pdf" target="_blank">
-                    📷 View Proof
-                </a>
 
             </div>
 
