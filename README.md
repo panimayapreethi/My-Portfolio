@@ -1,133 +1,78 @@
-# 👩‍💻 Preethi — Business & Data Analytics Portfolio
+<div align="center">
 
-Welcome to my personal portfolio repository.
+# 👋 Hi, I'm Preethi
 
-I am an **MBA Business Analytics student** with an interest in **Data Analytics, Business Analysis, and technology-driven problem solving**. This portfolio showcases my projects, technical skills, academic work, and experiences.
+### Aspiring Business & Data Analyst | MBA Candidate, Business Analytics
 
-🌐 **Live Portfolio:** [View My Portfolio](https://panimayapreethi.github.io/My-Portfolio/)
+Passionate about solving business problems, analyzing data, and creating impactful solutions through analytics and technology.
 
----
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit-blue?style=for-the-badge)](https://panimayapreethi.github.io/My-Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/panimaya-preethi)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:panimayapreethi@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-Download-success?style=for-the-badge)](https://panimayapreethi.github.io/My-Portfolio/PREETHI_RESUME.pdf)
 
-## 📊 About Me
+</div>
 
-I enjoy working with data to understand business problems, identify meaningful patterns, and communicate insights through clear visualizations.
 
-My current focus is on building practical skills in:
+## 📌 About
 
-* Data Analytics
-* Business Analysis
-* SQL
-* Python
-* Excel
-* Power BI
-* Tableau
-* Data Visualization
-* Business Problem Solving
+This repository contains the source code for my **personal portfolio website**, showcasing my work in business analytics, data analysis, and dashboard development. I'm an MBA candidate with hands-on experience building data pipelines and dashboards using **SQL, Python, and Power BI/Tableau** — including a churn model at 78.7% accuracy, statistical analysis of e-commerce satisfaction drivers, and a retail sales dashboard. I'm looking for a Business Analytics internship to apply these skills to real-world problems.
 
----
+**By the numbers:** 1,500+ students trained · 74-page research report · 5+ analytics tools · 8+ projects completed
 
-## 🛠️ Technical Skills
+## 🛠️ Skills
 
-**Data & Analytics**
+**Database & Visualization:** SQL · Python · Tableau · Power BI · Advanced Excel
+**Data Analysis:** Data Cleaning · Exploratory Data Analysis · KPI Analysis · Data Storytelling · Data Modelling
+**Professional Skills:** Leadership · Stakeholder Communication · Critical Thinking · Problem Solving · Self Learning
 
-* Python
-* Pandas
-* NumPy
-* SQL / MySQL
-* Microsoft Excel
-* Power BI
-* Tableau
+## 🚀 Featured Projects
 
-**Programming & Web**
+### 📦 [Customer Satisfaction Analysis in Brazilian E-Commerce (Olist)](https://github.com/panimayapreethi/olist-customer-satisfaction-analysis)
+Analyzed 99,000+ orders across 7 relational datasets with Python and SQL to uncover key drivers of customer satisfaction, translated into an interactive Tableau dashboard. Found delivery delay significantly correlated with review score (r = -0.27, p < 0.001) — 1-star orders arrived ~9 days later on average than 5-star orders.
+`Python` `Pandas` `SQL` `Tableau`
 
-* HTML
-* CSS
-* JavaScript
-* Basic Java
+### 📉 [Customer Churn Prediction & Retention Analytics](https://github.com/panimayapreethi/Customer-Churn-Analysis) · [Live App](https://customer-churn-analysis-9lnpuer39evtfraf8pwqvq.streamlit.app/)
+Built a logistic regression churn model on 7,000+ telecom records (78.7% accuracy), then modeled the financial case for targeted retention — projecting $22,380 net profit against a $5,620 campaign cost. Deployed as an interactive Streamlit app.
+`Python` `Scikit-learn` `SQL` `Streamlit`
 
-**Other**
+### 📊 [Global Retail Sales & Profit Analytics Dashboard](https://github.com/panimayapreethi/Retail-Analytics-Project)
+Analyzed $1.38M in retail sales across 7 categories using MySQL and Power BI. Built a reusable data model (views + window-function queries) and a dashboard surfacing $679.05K profit and a 49.08% margin.
+`MySQL` `SQL` `Power BI` `DAX`
 
-* Tally with GST
-* Digital Marketing
-* Business Analysis
-* Data Visualization
+### 📊 [Swiggy Delivery Performance Analysis](https://github.com/panimayapreethi/swiggy-delivery-performance-analysis)
+Analyzed 45,000+ food delivery records with SQL and Python to evaluate how traffic, weather, city type, and festivals affect delivery times, turning findings into actionable efficiency recommendations.
+`MySQL` `Python` `Pandas` `Matplotlib`
 
----
+### 🚀 [ApplyWise – Career Application Tracking & Analytics Portal](https://panimayapreethi.github.io/Applywise/)
+A web-based application tracker for job seekers, with a live dashboard, platform/status analytics, and auto-generated insights — all persisted client-side via `localStorage`, no backend required.
+`HTML` `CSS` `JavaScript`
 
-## 📁 Featured Projects
+### 🌊 Assessment of Socio-Economic Impact of the 2023 Tuticorin Flood
+Primary research study surveying 160 flood-affected households, analyzed in Excel and IBM SPSS, documented in a 74-page research report.
+`IBM SPSS` `Excel`
 
-### 🛒 Olist Customer Satisfaction Analysis
+## 💼 Experience
 
-A Python-based analysis of customer satisfaction using the Olist Brazilian E-Commerce dataset.
+**Business Analyst Intern** — Internova EduTech *(June–July 2026, Remote)*
+Business research, stakeholder requirements, process analysis, and Excel-based data analysis and reporting.
 
-The project explores customer review scores in relation to:
+**Career Readiness Trainer** — AIM Career Readiness Program
+Trained 1,500+ students in Advanced Excel, interview readiness, and career development.
 
-* Delivery performance
-* Product categories
-* Customer location
-* Payment methods
+## 🎓 Education
 
-**Tools:** Python, Pandas, Data Analysis, Statistical Analysis
+- **MBA & PGPM**, Business Analytics — ISSM Business School (2025–2027)
+- **BBA** — PSG College of Arts & Science (2022–2025)
 
----
+## 📬 Contact
 
-### 📈 Global Retail Profit Analysis
-
-A Power BI project focused on analyzing retail sales and profitability through interactive dashboards and business insights.
-
-**Tools:** Power BI, Excel, Data Visualization
+📧 [panimayapreethi@gmail.com](mailto:panimayapreethi@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/panimaya-preethi) · 💻 [GitHub](https://github.com/panimayapreethi)
+📍 Chennai, India
 
 ---
 
-### 💼 ApplyWise — Career Application Tracking & Analytics Portal
-
-A web-based career application tracking portal designed to help users manage job applications and monitor application-related analytics.
-
-**Tools:** HTML, CSS, JavaScript
-
----
-
-### 📱 Other Projects & Academic Work
-
-My portfolio also includes academic projects, research work, entrepreneurial initiatives, and other practical projects.
-
-Visit my portfolio to explore them in detail.
-
----
-
-## 💼 Experience & Leadership
-
-My portfolio includes experience and activities such as:
-
-* Business/Data Analytics internship experience
-* AIM Career Readiness Program
-* Media Committee Officer
-* Academic and entrepreneurial initiatives
-
----
-
-## 📚 Research
-
-My academic work includes research on the **Social & Economic Impact of Flood in Tuticorin**, along with other academic projects and reports.
-
----
-
-## 🎯 Career Interests
-
-I am interested in opportunities related to:
-
-**Data Analytics | Business Analytics | Business Analysis | Data Visualization**
-
-I am continuously building my technical and analytical skills through projects, coursework, certifications, and practical experience.
-
----
-
-## 📫 Connect With Me
-
-**LinkedIn:** [Panimaya Preethi](https://www.linkedin.com/in/panimaya-preethi)
-
-**Portfolio:** [panimayapreethi.github.io/My-Portfolio](https://panimayapreethi.github.io/My-Portfolio/)
-
----
-
-⭐ Thank you for visiting my portfolio!
+<div align="center">
+  <sub>⭐ If you like this portfolio, consider giving it a star!</sub>
+</div>
