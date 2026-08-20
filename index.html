@@ -30,7 +30,6 @@
             <li><a href="#projects">Projects</a></li>
              <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
@@ -45,7 +44,7 @@
     <div class="hero-text">
 
         <span class="hero-badge">
-            MBA Candidate | Business Analytics
+            MBA Candidate | Business & Data Analytics
         </span>
 
         <h1>
@@ -97,18 +96,18 @@
     </div>
 
     <div class="stat-box">
-        <h3>74</h3>
-        <p>Page Research Report</p>
+        <h3>294K+</h3>
+        <p>E-commerce Records Analyzed</p>
     </div>
 
     <div class="stat-box">
-        <h3>5+</h3>
+        <h3>6+</h3>
         <p>Analytics Tools Mastered</p>
     </div>
 
     <div class="stat-box">
-        <h3>8+</h3>
-        <p>Projects Completed</p>
+        <h3>78.7%</h3>
+        <p>Churn Model Accuracy</p>
     </div>
 
 </div>
@@ -128,7 +127,14 @@
         <div class="about-content">
 
             <p>
-                MBA candidate with hands-on experience building data pipelines and dashboards using SQL, Python, and Power BI/Tableau including a churn model (78.7% accuracy), statistical analysis identifying key satisfaction drivers in e-commerce data, and a retail sales dashboard. Skilled at turning raw data into clear insights. Seeking a Business Analytics internship to apply these skills to real business problems.
+I'm an MBA Business Analytics candidate who enjoys solving business problems with data. I work across SQL, Python, statistics, and BI tools to transform raw data into insights that are clear, measurable, and useful for decision-making.
+
+I've built hands-on projects across customer analytics, e-commerce, A/B testing, churn prediction, segmentation, and retail analytics from analyzing 294K+ e-commerce records in an A/B testing project to analyzing 99K+ orders to uncover customer satisfaction drivers.
+
+What interests me most is the process behind analytics: understanding the business problem, asking the right questions, finding the evidence in data, and turning the results into an actionable story.
+
+I'm currently looking for opportunities where I can apply this analytical mindset to real business problems, learn from strong teams, and grow into a data-driven business professional.
+
             </p>
 
         </div>
@@ -148,6 +154,7 @@
             <li>SQL</li>
             <li>Python</li>
             <li>Tableau</li>
+            <li>Looker Studio</li>
             <li>Power BI</li>
             <li>Advanced Excel</li>
         </ul>
@@ -156,11 +163,12 @@
     <div class="skill-box">
         <h3>💻 Data Analysis</h3>
         <ul>
+            <li>A/B Testing</li>
             <li>Data Cleaning</li>
             <li>Exploratory Data Analysis</li>
             <li>KPI Analysis</li>
-            <li>Data Storytelling</li>
-            <li>Data Modelling</li>
+            <li>Hypothesis Testing</li>
+            <li>Machine Learning</li>
         </ul>
     </div>
 
@@ -172,6 +180,7 @@
             <li>Critical Thinking</li>
             <li>Problem Solving</li>
             <li>Self Learning</li>
+            <li>Data Storytelling</li>
         </ul>
     </div>
 
@@ -185,11 +194,56 @@
 
 <h2>Projects</h2>
 
+<!-- A/B TESTING -->
+
+<div class="project-card">
+
+    <h3>Conversion Optimization Through A/B Testing</h3>
+
+    <div class="project-links">
+
+        <a href="dashboard.png" target="_blank">
+            📸 View Dashboard
+        </a>
+        <a href="https://github.com/panimayapreethi/conversion-optimization-ab-testing.git" target="_blank">
+            🌐 GitHub
+        </a>
+
+    </div>
+
+    <p>
+       Analyzed 290K+ user experiment records using Python, SQL, BigQuery, and statistical testing to evaluate whether a new website experience improved conversion rates.
+       </p>
+
+    <h4>Key Insights</h4>
+
+    <ul>
+        <li>Cleaned and validated 290,587 experiment records, checking missing values, duplicates, repeated users, and experiment-group consistency.</li>
+        <li>Compared Control vs Treatment conversion rates and calculated the observed conversion difference and relative lift.</li>
+        <li>Performed power analysis, confirming the experiment had sufficient sample size to detect the targeted improvement.</li>
+        <li>Conducted a two-proportion z-test and found a p-value of 0.0946, indicating no statistically significant evidence that the Treatment experience improved conversion.</li>
+        <li>Calculated a 95% confidence interval of -0.394% to +0.078%, which included zero and reinforced the conclusion.</li>
+        <li>Explored experimentation risks including peeking, A/A testing, multiple-testing considerations, and guardrail metrics.</li>
+    <li>Built an interactive Looker Studio dashboard to communicate the experiment results.</li>
+</ul>
+
+    <p>
+        <strong>Technologies:</strong>
+       Python, Pandas, NumPy, SQL, Google BigQuery, Statsmodels, Matplotlib, Looker Studio, Statistical Analysis
+    </p>
+    <p>
+    <strong>Impact & Insights:</strong>
+   Determined that the new website experience did not produce statistically significant conversion improvement, providing a data-driven basis for avoiding an unsupported rollout and informing future experimentation.
+   </p>
+
+</div>
+
+
 <!-- OLIST CUSTOMER SATISFACTION -->
 
 <div class="project-card">
 
-    <h3>📦 Customer Satisfaction Analysis in Brazilian E-Commerce (Olist)</h3>
+    <h3>Customer Satisfaction Analysis in Brazilian E-Commerce (Olist)</h3>
 
     <div class="project-links">
 
@@ -233,7 +287,7 @@
 
 <div class="project-card">
 
-    <h3>📉 Customer Churn Prediction & Retention Analytics</h3>
+    <h3>Customer Churn Prediction & Retention Analytics</h3>
 
     <div class="project-links">
 
@@ -261,7 +315,7 @@
     </ul>
 
     <p>
-        <stron>Technologies:</stron></strong>
+        <stron>Technologies:</stron>
         Python, Scikit-learn, SQL, Streamlit
     </p>
    <p>
@@ -270,12 +324,55 @@
 </p>
 
 </div>
+<!-- CUSTOMER SEGMENTATION -->
+
+<div class="project-card">
+
+    <h3>Customer Segmentation & RFM Analysis</h3>
+
+    <div class="project-links">
+
+        <a href="rfm_dashboard.png" target="_blank">
+            📸 View Dashboard
+        </a>
+        <a href="https://github.com/panimayapreethi/customer-segmentation-rfm.git" target="_blank">
+            🌐 GitHub
+        </a>
+
+    </div>
+
+    <p>
+Segmented retail customers based on Recency, Frequency, and Monetary value to identify high-value customers, retention risks, and opportunities for targeted marketing.
+       </p>
+
+    <h4>Key Insights</h4>
+
+    <ul>
+        <li>Cleaned transaction-level retail data by removing invalid transactions and calculated customer revenue using quantity x unit price.</li>
+        <li>Calculated Recency, Frequency, and Monetary (RFM) metrics at the customer level.</li>
+        <li>Scored customers from 1-5 across each RFM dimension and combined the scores to create customer segments-</li>
+        <li>Identified five actionable segments: Champions, Loyal Customers, Potential Loyalists, At Risk, and Lost Customers.</li>
+        <li>Compared customer distribution and revenue contribution across segments to identify high-value and at-risk customer groups.</li>
+        <li>Translated the segments into targeted retention, loyalty, win-back, and upselling strategies.</li>
+    <li>Built a customer segmentation dashboard to communicate customer value patterns and business opportunities.</li>
+</ul>
+
+    <p>
+        <strong>Technologies:</strong>
+       Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, RFM Analysis
+    </p>
+    <p>
+    <strong>Impact & Insights:</strong>
+Transformed transaction-level data into actionable customer segments, helping prioritize high-value customer retention, identify at-risk customers, and guide targeted marketing strategies.
+   </p>
+
+</div>
 
 <!-- GLOBAL RETAIL SALES -->
 
 <div class="project-card">
 
-    <h3>📊 Global Retail Sales & Profit Analytics Dashboard</h3>
+    <h3>Global Retail Sales & Profit Analytics Dashboard</h3>
 
     <div class="project-links">
 
@@ -309,125 +406,6 @@
     <strong>Impact & Insights:</strong>
     Delivered a single-view dashboard connecting sales, profit, and quantity KPIs by category and customer — enabling faster identification of high-margin categories and top-value customers for business planning.
 </p>
-
-</div>
-<!-- SQL AND PYTHON -->
-
-<div class="project-card">
-
-    <h3>📊 Swiggy Delivery Performance Analysis Using SQL and Python</h3>
-    <div class="project-links">
-        <a href="assets/projects/sql/Charts.pdf" target="_blank">
-            📄 View chart
-        </a>
-        <a href="https://github.com/panimayapreethi/swiggy-delivery-performance-analysis.git" target="_blank">
-        🌐 GitHub
-    </a>
-
-    </div>
-
-    <p>
-        Analyzed 45,000+ food delivery records using MySQL and Python to identify operational bottlenecks, evaluate delivery efficiency, and generate business insights through data visualization.
-    </p>
-
-    <h4>Key Insights</h4>
-
-    <ul>
-        <li>Cleaned and transformed 45,000+ delivery records using SQL to prepare data for analysis.</li>
-        <li>Performed exploratory data analysis to identify operational factors affecting delivery performance.</li>
-        <li> SQL queries to evaluate the impact of traffic, weather, city type, and festivals on delivery times.</li>
-        <li>Created Python visualizations to communicate insights and support data-driven decision-making.</li>
-        <li>Generated actionable recommendations to improve delivery efficiency and customer experience.</li>
-    </ul>
-
-    <p>
-        <strong>Technologies:</strong>
-        MySQL, Python, Pandas, Matplotlib, VS Code
-</p>
-<p>
-    <strong>Impact & Insights:</strong>
-    Identified key factors contributing to delivery delays, including traffic congestion and adverse weather conditions. Developed data-driven recommendations to support faster deliveries and improved customer satisfaction.
-</p>
-
-</div>
-
-<!-- FEATURED PROJECT -->
-
-<div class="project-card featured-project">
-
-   <h3>🚀 ApplyWise – Career Application Tracking & Analytics Portal</h3>
-
-<div class="project-links">
-
-    <a href="https://panimayapreethi.github.io/Applywise/" target="_blank">
-        🌐 Visit ApplyWise
-    </a>
-
-</div>
-
-<p>
-    Developed a web-based application tracking system
-    to help job seekers manage applications submitted
-    through LinkedIn, Naukri, Indeed and company
-    career portals.
-</p>
-
-<h4>Key Features</h4>
-
-<ul>
-    <li>Built a form-based application tracker capturing company, role, type (internship/job), platform (LinkedIn, Naukri, Indeed, Glassdoor, referral, career portal), date applied, and status.</li>
-    <li>Designed a live dashboard showing total applications, breakdown by type (internships/jobs), and status counts (applied, interview, offer, rejected, pending).</li>
-    <li>Built dynamic analytics views summarizing applications by platform, role type, and status.</li>
-    <li>Implemented an auto-generated insights panel that surfaces recommendations based on the user's application data.</li>
-    <li>Used browser localStorage to persist application data across sessions without a backend.</li>
-</ul>
-
-<p>
-    <strong>Technologies:</strong>
-    HTML, CSS, JavaScript
-</p>
-   <p>
-    <strong>Impact & Insights:</strong>
-Designed to help job seekers make data-informed decisions about which platforms and application strategies yield the best results, by centralizing and visualizing their own application history.
-
-</div>
-<!-- FLOOD RESEARCH -->
-
-<div class="project-card">
-
-    <h3>🌊 Assessment of Socio-Economic Impact of the 2023 Tuticorin Flood</h3>
-
-    <div class="project-links">
-
-        <a href="assets/projects/research/Research_Report.pdf" target="_blank">
-            📄 View Research Report
-        </a>
-
-    </div>
-
-    <p>
-       Conducted a primary research study assessing how the 2023 Tuticorin flood affected the socio-economic conditions of impacted households, using survey-based data collection and statistical analysis.
-    </p>
-
-    <h4>Research Highlights</h4>
-
-    <ul>
-        <li>Designed and administered a structured questionnaire, surveying 160 respondents from flood-affected households.</li>
-        <li>Collected primary data covering household income, property damage, and disruption to livelihoods.</li>
-        <li>Cleaned and analyzed survey data using Excel and IBM SPSS to identify significant socio-economic patterns.</li>
-        <li>Authored a 74-page research report documenting methodology, findings, and recommendations.</li>
-    </ul>
-
-    <p>
-        <strong>Tools:</strong>
-        IBM SPSS, Excel
-    </p>
-   <p>
-    <strong>Impact & Insights:</strong>
-    Survey findings across 160 households revealed measurable socio-economic effects of the flood, providing evidence that could inform disaster relief planning, policy recommendations, or organizational response strategies for similar events.
-</p>
-
-</div>
 
 </div>
 
@@ -546,40 +524,6 @@ Contributed to the AIM Career Readiness Program by training over <strong>1,500+<
 
 </section>
 
-    <!-- CERTIFICATIONS -->
-
-    <section id="certifications" class="section">
-
-
-<h2>Certifications</h2>
-
-<div class="cards">
-
-    <div class="card">
-        <h3>📊 Business Analysis & Process Management</h3>
-        <p>Coursera</p>
-
-        <a href="assets/certificates/ba.jpeg"
-           target="_blank"
-           class="cert-btn">
-           🔗 View Certificate
-        </a>
-    </div>
-
-    <div class="card">
-        <h3>🗣 Soft Skills Development</h3>
-        <p>NPTEL</p>
-
-        <a href="assets/certificates/nptel.PNG"
-           target="_blank"
-           class="cert-btn">
-           🔗 View Certificate
-        </a>
-    </div>
-</div>
-
-
-</section>
 
 
     <!-- CONTACT -->
