@@ -40,14 +40,6 @@ Built a logistic regression churn model on 7,000+ telecom records (78.7% accurac
 Analyzed $1.38M in retail sales across 7 categories using MySQL and Power BI. Built a reusable data model (views + window-function queries) and a dashboard surfacing $679.05K profit and a 49.08% margin.
 `MySQL` `SQL` `Power BI` `DAX`
 
-### 📊 [Swiggy Delivery Performance Analysis](https://github.com/panimayapreethi/swiggy-delivery-performance-analysis)
-Analyzed 45,000+ food delivery records with SQL and Python to evaluate how traffic, weather, city type, and festivals affect delivery times, turning findings into actionable efficiency recommendations.
-`MySQL` `Python` `Pandas` `Matplotlib`
-
-### 🚀 [ApplyWise – Career Application Tracking & Analytics Portal](https://panimayapreethi.github.io/Applywise/)
-A web-based application tracker for job seekers, with a live dashboard, platform/status analytics, and auto-generated insights — all persisted client-side via `localStorage`, no backend required.
-`HTML` `CSS` `JavaScript`
-
 ### 🌊 Assessment of Socio-Economic Impact of the 2023 Tuticorin Flood
 Primary research study surveying 160 flood-affected households, analyzed in Excel and IBM SPSS, documented in a 74-page research report.
 `IBM SPSS` `Excel`
